@@ -163,6 +163,7 @@ function ActionSheet(
         {props.actions && props.actions.map(Option)}
         {slots.default?.()}
       </div>
+      <div>测试下</div>
       {CancelText()}
     </Popup>
   );
