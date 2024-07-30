@@ -3,7 +3,7 @@ import { InjectOptions, PropsDefinition } from 'vue/types/options';
 
 export type EventHandler = (event: Event) => void;
 
-export type ObjectIndex = Record<string, any>;
+export type ObjectIndex = Record<string, any>; // 对象 => 值可以是任何值
 
 export type ScopedSlot<Props = any> = (
   props?: Props

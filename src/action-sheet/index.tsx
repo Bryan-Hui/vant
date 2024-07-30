@@ -1,7 +1,7 @@
-import Vue from 'vue';
+import Vue from 'vue';  // 引入vue
 
 // Utils
-import { createNamespace } from '../utils';
+import { createNamespace } from '../utils';  /** 创建命名空间 */
 import { emit, inherit } from '../utils/functional';
 
 // Mixins
